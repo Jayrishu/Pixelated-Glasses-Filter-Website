@@ -1,0 +1,17 @@
+canvas{
+    animation-name: border_color_canvas;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+@keyframes border_color_canvas{
+    from{box-shadow: 1px 1px 40px green;}
+    to{box-shadow: 1px 1px 40px yellow;}
+}
+h3{
+    font-size: 30px !important;
+    width:40% !important;
+}
+.btn-warning:hover{
+    color: greenyellow;
+    background-color:red;
+}
